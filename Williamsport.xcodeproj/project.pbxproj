@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C2C24201A01B13900060F6D /* icon_live.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C2C241C1A01B13900060F6D /* icon_live.png */; };
+		2C2C24211A01B13900060F6D /* icon_audio.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C2C241D1A01B13900060F6D /* icon_audio.png */; };
+		2C2C24221A01B13900060F6D /* icon_contact.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C2C241E1A01B13900060F6D /* icon_contact.png */; };
+		2C2C24231A01B13900060F6D /* icon_bulletin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C2C241F1A01B13900060F6D /* icon_bulletin.png */; };
+		2C2C242C1A030D4F00060F6D /* WPLiveStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2C242B1A030D4F00060F6D /* WPLiveStreamViewController.m */; };
+		2C41914F197F142D00C44D4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C41914E197F142D00C44D4B /* Foundation.framework */; };
+		2C419151197F142D00C44D4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C419150197F142D00C44D4B /* CoreGraphics.framework */; };
+		2C419153197F142D00C44D4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C419152197F142D00C44D4B /* UIKit.framework */; };
+		2C419159197F142D00C44D4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C419157197F142D00C44D4B /* InfoPlist.strings */; };
+		2C41915B197F142D00C44D4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C41915A197F142D00C44D4B /* main.m */; };
+		2C41915F197F142D00C44D4B /* WPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C41915E197F142D00C44D4B /* WPAppDelegate.m */; };
+		2C419162197F142D00C44D4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C419160197F142D00C44D4B /* Main.storyboard */; };
+		2C419165197F142D00C44D4B /* WPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C419164197F142D00C44D4B /* WPViewController.m */; };
+		2C419167197F142D00C44D4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C419166197F142D00C44D4B /* Images.xcassets */; };
+		2C41916E197F142D00C44D4B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C41916D197F142D00C44D4B /* XCTest.framework */; };
+		2C41916F197F142E00C44D4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C41914E197F142D00C44D4B /* Foundation.framework */; };
+		2C419170197F142E00C44D4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C419152197F142D00C44D4B /* UIKit.framework */; };
+		2C419178197F142E00C44D4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C419176197F142E00C44D4B /* InfoPlist.strings */; };
+		2C41917A197F142E00C44D4B /* WilliamsportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C419179197F142E00C44D4B /* WilliamsportTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C419171197F142E00C44D4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C419143197F142C00C44D4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C41914A197F142C00C44D4B;
+			remoteInfo = Williamsport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C2C241C1A01B13900060F6D /* icon_live.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_live.png; path = "../../Williamsport-Android/Williamsport-Android/res/drawable-xxhdpi/icon_live.png"; sourceTree = "<group>"; };
+		2C2C241D1A01B13900060F6D /* icon_audio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_audio.png; path = "../../Williamsport-Android/Williamsport-Android/res/drawable-xxhdpi/icon_audio.png"; sourceTree = "<group>"; };
+		2C2C241E1A01B13900060F6D /* icon_contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_contact.png; path = "../../Williamsport-Android/Williamsport-Android/res/drawable-xxhdpi/icon_contact.png"; sourceTree = "<group>"; };
+		2C2C241F1A01B13900060F6D /* icon_bulletin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_bulletin.png; path = "../../Williamsport-Android/Williamsport-Android/res/drawable-xxhdpi/icon_bulletin.png"; sourceTree = "<group>"; };
+		2C2C242A1A030D4F00060F6D /* WPLiveStreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPLiveStreamViewController.h; sourceTree = "<group>"; };
+		2C2C242B1A030D4F00060F6D /* WPLiveStreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPLiveStreamViewController.m; sourceTree = "<group>"; };
+		2C41914B197F142D00C44D4B /* Williamsport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Williamsport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C41914E197F142D00C44D4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2C419150197F142D00C44D4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2C419152197F142D00C44D4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2C419156197F142D00C44D4B /* Williamsport-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Williamsport-Info.plist"; sourceTree = "<group>"; };
+		2C419158197F142D00C44D4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2C41915A197F142D00C44D4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C41915C197F142D00C44D4B /* Williamsport-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Williamsport-Prefix.pch"; sourceTree = "<group>"; };
+		2C41915D197F142D00C44D4B /* WPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPAppDelegate.h; sourceTree = "<group>"; };
+		2C41915E197F142D00C44D4B /* WPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPAppDelegate.m; sourceTree = "<group>"; };
+		2C419161197F142D00C44D4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C419163197F142D00C44D4B /* WPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPViewController.h; sourceTree = "<group>"; };
+		2C419164197F142D00C44D4B /* WPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPViewController.m; sourceTree = "<group>"; };
+		2C419166197F142D00C44D4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2C41916C197F142D00C44D4B /* WilliamsportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WilliamsportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C41916D197F142D00C44D4B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2C419175197F142E00C44D4B /* WilliamsportTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WilliamsportTests-Info.plist"; sourceTree = "<group>"; };
+		2C419177197F142E00C44D4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2C419179197F142E00C44D4B /* WilliamsportTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WilliamsportTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C419148197F142C00C44D4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C419151197F142D00C44D4B /* CoreGraphics.framework in Frameworks */,
+				2C419153197F142D00C44D4B /* UIKit.framework in Frameworks */,
+				2C41914F197F142D00C44D4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C419169197F142D00C44D4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C41916E197F142D00C44D4B /* XCTest.framework in Frameworks */,
+				2C419170197F142E00C44D4B /* UIKit.framework in Frameworks */,
+				2C41916F197F142E00C44D4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C419142197F142B00C44D4B = {
+			isa = PBXGroup;
+			children = (
+				2C419154197F142D00C44D4B /* Williamsport */,
+				2C419173197F142E00C44D4B /* WilliamsportTests */,
+				2C41914D197F142D00C44D4B /* Frameworks */,
+				2C41914C197F142D00C44D4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C41914C197F142D00C44D4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C41914B197F142D00C44D4B /* Williamsport.app */,
+				2C41916C197F142D00C44D4B /* WilliamsportTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C41914D197F142D00C44D4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C41914E197F142D00C44D4B /* Foundation.framework */,
+				2C419150197F142D00C44D4B /* CoreGraphics.framework */,
+				2C419152197F142D00C44D4B /* UIKit.framework */,
+				2C41916D197F142D00C44D4B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C419154197F142D00C44D4B /* Williamsport */ = {
+			isa = PBXGroup;
+			children = (
+				2C41915D197F142D00C44D4B /* WPAppDelegate.h */,
+				2C41915E197F142D00C44D4B /* WPAppDelegate.m */,
+				2C419160197F142D00C44D4B /* Main.storyboard */,
+				2C419163197F142D00C44D4B /* WPViewController.h */,
+				2C419164197F142D00C44D4B /* WPViewController.m */,
+				2C419166197F142D00C44D4B /* Images.xcassets */,
+				2C419155197F142D00C44D4B /* Supporting Files */,
+				2C2C242A1A030D4F00060F6D /* WPLiveStreamViewController.h */,
+				2C2C242B1A030D4F00060F6D /* WPLiveStreamViewController.m */,
+			);
+			path = Williamsport;
+			sourceTree = "<group>";
+		};
+		2C419155197F142D00C44D4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C2C241C1A01B13900060F6D /* icon_live.png */,
+				2C2C241D1A01B13900060F6D /* icon_audio.png */,
+				2C2C241E1A01B13900060F6D /* icon_contact.png */,
+				2C2C241F1A01B13900060F6D /* icon_bulletin.png */,
+				2C419156197F142D00C44D4B /* Williamsport-Info.plist */,
+				2C419157197F142D00C44D4B /* InfoPlist.strings */,
+				2C41915A197F142D00C44D4B /* main.m */,
+				2C41915C197F142D00C44D4B /* Williamsport-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C419173197F142E00C44D4B /* WilliamsportTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C419179197F142E00C44D4B /* WilliamsportTests.m */,
+				2C419174197F142E00C44D4B /* Supporting Files */,
+			);
+			path = WilliamsportTests;
+			sourceTree = "<group>";
+		};
+		2C419174197F142E00C44D4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C419175197F142E00C44D4B /* WilliamsportTests-Info.plist */,
+				2C419176197F142E00C44D4B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C41914A197F142C00C44D4B /* Williamsport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C41917D197F142E00C44D4B /* Build configuration list for PBXNativeTarget "Williamsport" */;
+			buildPhases = (
+				2C419147197F142C00C44D4B /* Sources */,
+				2C419148197F142C00C44D4B /* Frameworks */,
+				2C419149197F142C00C44D4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Williamsport;
+			productName = Williamsport;
+			productReference = 2C41914B197F142D00C44D4B /* Williamsport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C41916B197F142D00C44D4B /* WilliamsportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C419180197F142E00C44D4B /* Build configuration list for PBXNativeTarget "WilliamsportTests" */;
+			buildPhases = (
+				2C419168197F142D00C44D4B /* Sources */,
+				2C419169197F142D00C44D4B /* Frameworks */,
+				2C41916A197F142D00C44D4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C419172197F142E00C44D4B /* PBXTargetDependency */,
+			);
+			name = WilliamsportTests;
+			productName = WilliamsportTests;
+			productReference = 2C41916C197F142D00C44D4B /* WilliamsportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C419143197F142C00C44D4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Williamsport Seventh-day Adventist Church";
+				TargetAttributes = {
+					2C41916B197F142D00C44D4B = {
+						TestTargetID = 2C41914A197F142C00C44D4B;
+					};
+				};
+			};
+			buildConfigurationList = 2C419146197F142C00C44D4B /* Build configuration list for PBXProject "Williamsport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C419142197F142B00C44D4B;
+			productRefGroup = 2C41914C197F142D00C44D4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C41914A197F142C00C44D4B /* Williamsport */,
+				2C41916B197F142D00C44D4B /* WilliamsportTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C419149197F142C00C44D4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C2C24201A01B13900060F6D /* icon_live.png in Resources */,
+				2C419167197F142D00C44D4B /* Images.xcassets in Resources */,
+				2C2C24211A01B13900060F6D /* icon_audio.png in Resources */,
+				2C419159197F142D00C44D4B /* InfoPlist.strings in Resources */,
+				2C419162197F142D00C44D4B /* Main.storyboard in Resources */,
+				2C2C24221A01B13900060F6D /* icon_contact.png in Resources */,
+				2C2C24231A01B13900060F6D /* icon_bulletin.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C41916A197F142D00C44D4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C419178197F142E00C44D4B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C419147197F142C00C44D4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C41915B197F142D00C44D4B /* main.m in Sources */,
+				2C2C242C1A030D4F00060F6D /* WPLiveStreamViewController.m in Sources */,
+				2C41915F197F142D00C44D4B /* WPAppDelegate.m in Sources */,
+				2C419165197F142D00C44D4B /* WPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C419168197F142D00C44D4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C41917A197F142E00C44D4B /* WilliamsportTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C419172197F142E00C44D4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C41914A197F142C00C44D4B /* Williamsport */;
+			targetProxy = 2C419171197F142E00C44D4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C419157197F142D00C44D4B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C419158197F142D00C44D4B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2C419160197F142D00C44D4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C419161197F142D00C44D4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C419176197F142E00C44D4B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C419177197F142E00C44D4B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C41917B197F142E00C44D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2C41917C197F142E00C44D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C41917E197F142E00C44D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Williamsport/Williamsport-Prefix.pch";
+				INFOPLIST_FILE = "Williamsport/Williamsport-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2C41917F197F142E00C44D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Williamsport/Williamsport-Prefix.pch";
+				INFOPLIST_FILE = "Williamsport/Williamsport-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2C419181197F142E00C44D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Williamsport.app/Williamsport";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Williamsport/Williamsport-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WilliamsportTests/WilliamsportTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2C419182197F142E00C44D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Williamsport.app/Williamsport";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Williamsport/Williamsport-Prefix.pch";
+				INFOPLIST_FILE = "WilliamsportTests/WilliamsportTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C419146197F142C00C44D4B /* Build configuration list for PBXProject "Williamsport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C41917B197F142E00C44D4B /* Debug */,
+				2C41917C197F142E00C44D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C41917D197F142E00C44D4B /* Build configuration list for PBXNativeTarget "Williamsport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C41917E197F142E00C44D4B /* Debug */,
+				2C41917F197F142E00C44D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C419180197F142E00C44D4B /* Build configuration list for PBXNativeTarget "WilliamsportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C419181197F142E00C44D4B /* Debug */,
+				2C419182197F142E00C44D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C419143197F142C00C44D4B /* Project object */;
+}
